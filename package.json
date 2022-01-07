@@ -1,0 +1,39 @@
+{
+  "name": "@feswap/default-token-list",
+  "version": "3.0.0",
+  "description": "🔗FeSwap default token list, forked from Uniswap",
+  "main": "build/feswap-default-token-list.json",
+  "scripts": {
+    "test": "mocha",
+    "build": "rimraf build && mkdir build && node src/write.js > build/feswap-default-token-list.json",
+    "Matic": "node src/writeMatic.js > build/feswap-matic_token-list.json",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/feswap-default-token-list.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeSwap/FeSwapTokenList.git"
+  },
+  "keywords": [
+    "FeSwap",
+    "default",
+    "token",
+    "list"
+  ],
+  "author": "Derik LU",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/FeSwap/FeSwapTokenList/issues"
+  },
+  "homepage": "https://github.com/FeSwap/FeSwapTokenList#readme",
+  "devDependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@uniswap/token-lists": "^1.0.0-beta.8",
+     "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
