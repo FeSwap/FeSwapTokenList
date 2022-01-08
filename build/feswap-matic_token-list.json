@@ -1,6 +1,6 @@
 {
   "name": "FeSwap Matic Info Token List",
-  "timestamp": "2022-01-07T13:38:17.935Z",
+  "timestamp": "2022-01-08T09:15:39.347Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -10,7 +10,7 @@
   "logoURI": "https://raw.githubusercontent.com/FeSwap/FeSwapTokenList/master/FeSwapLogo.png",
   "keywords": [
     "FeSwap",
-    "matic"
+    "Matic"
   ],
   "tokens": [
     {
@@ -20,6 +20,14 @@
       "decimals": 18,
       "chainId": 137,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "name": "FeSwap DAO",
+      "address": "0x0bE3afD0A28F0AA787D113c08d1d8A903cF6eeE9",
+      "symbol": "FESW@M",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://www.feswap.io/img/Fesw.png"
     },
     {
       "name": "Dai Stablecoin",
@@ -171,7 +179,7 @@
       "symbol": "WBTC",
       "decimals": 8,
       "chainId": 137,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/sushiswap/icons/master/token/btc.jpg"
     },
     {
       "name": "Balancer",
